@@ -2,8 +2,6 @@
 
 ### Calculation method for interpolation - Newton's method
 
-
-### Calculation method for non linear systems - method of Newton
 Available equations to interpolation:
 * f(x) = x^3 - 2x^2 - 8|x|
 * f(x) = sin(x) + 2
