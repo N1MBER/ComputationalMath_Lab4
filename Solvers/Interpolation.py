@@ -24,8 +24,8 @@ class Interpolator:
         values = [self.x_values[0]]
         i = 0
         result = 0
+        factor = 1
         while i < len(self.x_values):
-            factor = 1
             for k in range(0, i, 1):
                 factor *= (x - self.x_values[i - 1])
             result += self.separated_differences(values) * factor

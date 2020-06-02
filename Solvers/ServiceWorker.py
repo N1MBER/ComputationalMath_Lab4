@@ -233,7 +233,7 @@ def make_graph(calculator):
         plt.plot(x, second_equation, color='r', linewidth=2)
         j = 0
         for i in calculator.x_values:
-            plt.scatter(i, calculator.y_graph_values[j], color='b', s=40)
+            plt.scatter(i, calculator.y_values[j], color='b', s=40)
             j += 1
         k = 0
         if len(calculator.dots_x) != 0:
